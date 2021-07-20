@@ -2,7 +2,7 @@
 # Orny-s-System
 
 
-# Buy Item
+# Buy Item Category
 ![Buy Item](https://user-images.githubusercontent.com/52504166/126324041-0b45fff6-35ef-47b9-9440-be209c8f7fa2.JPG)
 
 
