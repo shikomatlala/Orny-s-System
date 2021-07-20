@@ -1,0 +1,42 @@
+invoice
+date
+amount
+items
+name 
+surnaame
+
+
+SELECT FirstName || ' ' || LastName "Customer", ItemName, ItemPrice
+FROM Tcustomer, TItem, TPurchase
+WHERE TItem.ItemID = TPurchase.ItemID AND  TCustomer.CustomerID =TPurchase.CustomerID;
+
+
+SUMMARIZED VERSION
+
+SELECT FirstName || ' ' || LastName "Customer", ItemName, ItemPrice
+FROM Tcustomer, TItem, TPurchase
+WHERE TItem.ItemID = TPurchase.ItemID AND  TCustomer.CustomerID =TPurchase.CustomerID
+GROUP BY ItemPrice;
+
+SELECT FirstName || ' ' || LastName "Customer", ItemName, SUM(ItemPrice)
+FROM Tcustomer, TItem, TPurchase
+WHERE TItem.ItemID = TPurchase.ItemID AND  TCustomer.CustomerID =TPurchase.CustomerID
+GROUP BY ItemPrice;
+
+
+SELECT FirstName || ' ' || LastName name, SUM(ItemPrice) price , purchaseID 
+FROM Tcustomer, TItem, TPurchase
+WHERE TItem.ItemID = TPurchase.ItemID AND  TCustomer.CustomerID =TPurchase.CustomerID
+GROUP BY ItemPrice, FirstName, LastName, PurchaseID;
+
+SELECT FirstName || ' ' || LastName name, SUM(ItemPrice) price , purchaseDate
+FROM Tcustomer, TItem, TPurchase
+WHERE TItem.ItemID = TPurchase.ItemID AND  TCustomer.CustomerID =TPurchase.CustomerID
+GROUP BY ItemPrice, FirstName, LastName, purchaseDate;
+
+
+
+SELEC
+
+referential intregrity means that when you selct from an item, there should only be a simlg eforeing key, and not two entities should be similar in a table that is related to another table.
+

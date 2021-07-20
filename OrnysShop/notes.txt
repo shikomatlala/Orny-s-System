@@ -1,0 +1,30 @@
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,30);
+INSERT INTO tfood VALUES (,31);
+INSERT INTO tfood VALUES (127,'Carrot',31);
+
+
+INSERT INTO titem VALUES ('115','Apple','4.99
+INSERT INTO titem VALUES ('116','Banana',4.99
+INSERT INTO titem VALUES ('117','Grape',9.99
+INSERT INTO titem VALUES ('118','Peach',5.99
+INSERT INTO titem VALUES ('119','Berries',3.99
+INSERT INTO titem VALUES ('120','Citru fruit',6.99
+INSERT INTO titem VALUES ('121','Melon',21.99
+INSERT INTO titem VALUES ('122','Dried fruit',12.99
+INSERT INTO titem VALUES ('123','Moringa',23.49
+INSERT INTO titem VALUES ('124','fruit salad',16.99
+INSERT INTO titem VALUES ('125','Nectarine',12.99
+INSERT INTO titem VALUES ('126','Tomatoe',8.99,'
+
+
+DROP TABLE tstockorder CASCADE CONSTRAINTS;

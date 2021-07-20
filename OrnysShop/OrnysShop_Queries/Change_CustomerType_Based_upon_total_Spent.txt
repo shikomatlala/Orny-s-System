@@ -1,0 +1,23 @@
+
+
+UPDATE tcustomer
+SET customertype = 2
+WHERE  (SELECT COUNT(itemprice)
+	FROM tpurchase TP, titem TI, tcustomer TC
+	WHERE TP.itemid = TI.itemid AND TP.customerid = 'CID123359P20200725') > 500 AND customerid = 'CID123359P20200725';
+
+
+DEFINE custid = 'CID123359P20200725';
+DEFINE totamount = 500;
+DEFINE custtype = 2;
+
+UPDATE tcustomer
+SET customertype = &custtype
+WHERE  (SELECT COUNT(itemprice)
+	FROM tpurchase TP, titem TI, tcustomer TC
+	WHERE TP.itemid = TI.itemid AND TP.customerid = 'custid') > &totamount AND customerid = 'custid';
+
+DEFINE totspend;
+
+UPDATE tcustomer
+SET customertype = 
