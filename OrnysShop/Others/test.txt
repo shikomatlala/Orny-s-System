@@ -1,0 +1,26 @@
+C:\Users\Programmer\Shiko\Shiko Files\Career\TUT\2020 Sem 1\TPG201\Assignment New\TPG201T_FillerAssesments_StudentDisk\TPG201T_FillerAssesments_StudentDisk\AppData\KrugerPark.accdb
+
+
+
+MessageDlg("Please select a gate first",mtError,TMsgDlgButtons() << mbOK,0);
+..\..\AppData\HistoricSightings_Pipe.txt
+
+mtError
+mtConfirmation
+mtOK
+TMsgDlgButtons() << mbYes << mbNo
+
+MessageDlg(
+
+
+AnsiString sql = " SELECT AccomodationType, BaseRate/BaseRatePAX, CampCode ";
+sql += " FROM TarrifRates ";
+DMod->ADOUseQuery1->Close();
+DMod->ADOUseQuery1->SQL->Clear();
+DMod->ADOUseQuery1->SQL->Add(sql);
+DMOd->ADOUseQuery1->SQL->Active = true;
+
+
+//CREATE A FOR LOOP
+
+ShowMessage("The accomodationtype " + accomodation + " at camp " + campcode + " is the most expensive at R" + FloatToStr(MostExpensiveAcc) + " per night per person");

@@ -1,0 +1,7 @@
+COL a HEAD 'NAMES'
+COL b HEAD "SPENT"
+
+SELECT firstname a,lastname b
+FROM tcustomer;
+
+

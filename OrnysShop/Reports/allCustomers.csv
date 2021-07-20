@@ -1,0 +1,5 @@
+"CUSTOMERID","FIRSTNAME","LASTNAME","IDNUMBER","GENDER","DATEOFBIRTH","PHONENUMBER","EMAILADDRESS","PHYSICALADDRESS","CUSTOMERTYPE"
+"CID123359P20200724","Annah","Sekati","9706120409084","F","12-JUN-97","0765772535","annahref@gmail.com","6329 Block S, Mabopane, 0190, Pretoria","1"
+"CID123359P20200725","Boitumelo","Sekati","9012110549084","F","11-DEC-90","0765772535","tumisekati22@gmail.com","6329 Block S, Mabopane, 0190, Pretoria","2"
+"CID123359P20200726","Shiko","Matlala","9511275418082","M","27-NOV-95","0765870538","shikomatlala@gmail.com","6328 Block S, Mabopane, 0190, Pretoria","1"
+"CID123359P20200727","Refilwe","Shilaluke","8105055418082","F","05-MAY-89","0721644964","refmatlala@gmail.com","6328 Block S, Mabopane, 0190, Pretoria","1"
