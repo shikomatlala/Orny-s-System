@@ -24,6 +24,7 @@ Invoice::~Invoice()
 }
 void Invoice::resetInvoice()
 {
+	//Hi there I just changed this code from Pfanos Laptop
 	invID = 0;
 	invNumber  = "1";
 	invDate = Date();
